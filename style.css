@@ -1,0 +1,177 @@
+body {
+  font: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+h1 a {
+  font-size: 50px;
+  font-weight: 100;
+  color: purple;
+  text-decoration: none;
+}
+
+#header {
+  height: 100px;
+  padding: 10px 0px;
+}
+
+#brand {
+  float: left;
+}
+
+#searchbox {
+  float: right;
+  background: -webkit-linear-gradient(lightgreen, green);
+  background: -moz-linear-gradient(lightgreen, green);
+  background: -o-linear-gradient(lightgreen, green);
+  background: -ms-linear-gradient(lightgreen, green);
+  width: 400px;
+  height: 50px;
+  padding: 20px 20px 0px 20px;
+  margin-top: 20px;
+}
+
+#searchbox .text {
+  float: left;
+  width: 200px;
+  padding: 5px;
+  font-size: 15px;
+  color: orange;
+  border: 1px solid green;
+}
+
+#searchbox .submit {
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  background: purple;
+  font-size: 15px;
+}
+
+#menu {
+  height: 70px;
+  background: -webkit-linear-gradient(lightyellow, yellow);
+  background: -moz-linear-gradient(lightyellow, yellow);
+  background: -o-linear-gradient(lightyellow, yellow);
+  background: -ms-linear-gradient(lightyellow, yellow);
+  padding: 5px 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#menu ul li {
+  float: left;
+  padding: 0px 30px;
+  height: 30px;
+  border-right: 1px solid purple;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: purple;
+  line-height: 30px;
+  -webkit-transition: font-size 0.2s ease;
+  -moz-transition: font-size 0.2s ease;
+  -o-transition: font-size 0.2s ease;
+  -ms-transition: font-size 0.2s ease;
+  transition: font-size 0.2s ease;
+}
+
+#menu ul li:last-child {
+  border-right: none;
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+  font-size: 20px;
+  color: violet;
+  font-weight: bold;
+}
+
+#introduction {
+  background: -webkit-linear-gradient(lightgray, gray);
+  background: -moz-linear-gradient(lightgray, gray);
+  background: -o-linear-gradient(lightgray, gray);
+  background: -ms-linear-gradient(lightgray, gray);
+  padding: 30px;
+  margin: 15px 0px;
+}
+
+#introduction h3 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+#introduction p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.sidebar {
+  height: 500px;
+  width: 450px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  padding: 10px 30px;
+}
+
+.sidebar h3 {
+  color: blue;
+  font-size: 30px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+  -webkit-transition: font-size 0.2s ease;
+  -moz-transition: font-size 0.2s ease;
+  -o-transition: font-size 0.2s ease;
+  -ms-transition: font-size 0.2s ease;
+  transition: font-size 0.2s ease;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  text-decoration: none;
+  color: cyan;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  padding-top: 10px;
+}
+
+.sidebar ul li {
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+#leftsidebar {
+  float: left;
+}
+
+#rightsidebar {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer {
+  height: 50px;
+  background: linear-gradient(yellow, lightyellow);
+  padding: 10px 30px;
+  margin-top: 10px;
+}
